@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto&display=swap");
+
+*{
+    font-family: "Aboreto", cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav_barContaner{
+    display: flex;
+    min-height: 92vh ;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+}
+
+.nav_barContaner .itens .item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    list-style: none;
+    padding: 10px 105px;
+    margin: 18px;
+    background: #2f363e;
+    color: #eee;
+    border-radius: 20px;
+    border: 2px solid #000;
+    font-size: 1.4rem;
+    transition: all 350ms;
+    
+}
+.nav_barContaner .itens .item:hover{
+    cursor: pointer;
+    box-shadow: 0 0 12px #000;
+}
+
+
+#footer{
+    
+    background: #000;
+    color: #eee;
+    list-style: none;
+    bottom: 0;
+    min-height: 8vh;
+}
+
+#footer .conteudo{
+    display: flex;
+}
+
+#footer .conteudo li {
+    display: flex;
+    margin: 10px 35px
+    
+
+}
