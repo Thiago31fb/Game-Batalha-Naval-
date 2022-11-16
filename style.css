@@ -56,3 +56,17 @@
     
 
 }
+
+
+/* tabuleiro */
+
+.tabuleiro{
+    display: flex;;
+    width: 100vh;
+    right: 100vh;
+    background: linear-gradient(
+        90deg,
+        rgb(99, 96, 53)0%,
+        rgb(56, 37, 29)100%
+    );
+}
